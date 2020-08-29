@@ -860,6 +860,7 @@ GameObject:
   - component: {fileID: 114772542960662300}
   - component: {fileID: 114235901505066346}
   - component: {fileID: 114929375755976588}
+  - component: {fileID: 114017414380365086}
   m_Layer: 20
   m_Name: Unka Toon
   m_TagString: Untagged
@@ -2193,22 +2194,22 @@ MonoBehaviour:
     SynchronizeType: 2
     Name: UpDown
   - Type: 1
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: Vertical
   - Type: 1
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: Horizontal
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: Stand
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: _Jump
   - Type: 4
     SynchronizeType: 2
     Name: Fly
   - Type: 4
-    SynchronizeType: 1
+    SynchronizeType: 2
     Name: Fall
   - Type: 4
     SynchronizeType: 1
@@ -2259,15 +2260,15 @@ MonoBehaviour:
     SynchronizeType: 1
     Name: SpeedMultiplier
   m_SynchronizeLayers:
-  - SynchronizeType: 1
+  - SynchronizeType: 2
     LayerIndex: 0
   - SynchronizeType: 2
     LayerIndex: 1
-  - SynchronizeType: 1
+  - SynchronizeType: 2
     LayerIndex: 2
-  - SynchronizeType: 1
+  - SynchronizeType: 2
     LayerIndex: 3
-  - SynchronizeType: 1
+  - SynchronizeType: 2
     LayerIndex: 4
 --- !u!114 &114235901505066346
 MonoBehaviour:
@@ -2326,6 +2327,18 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &114017414380365086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172249690139914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9005c515ebb0679469dd6df201347ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1181799840566990
 GameObject:
   m_ObjectHideFlags: 0
